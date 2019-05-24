@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Pockets" msprop:Generator_TableClassName="PocketsDataTable" msprop:Generator_TableVarName="tablePockets" msprop:Generator_TablePropName="Pockets" msprop:Generator_RowDeletingName="PocketsRowDeleting" msprop:Generator_RowChangingName="PocketsRowChanging" msprop:Generator_RowEvHandlerName="PocketsRowChangeEventHandler" msprop:Generator_RowDeletedName="PocketsRowDeleted" msprop:Generator_UserTableName="Pockets" msprop:Generator_RowChangedName="PocketsRowChanged" msprop:Generator_RowEvArgName="PocketsRowChangeEvent" msprop:Generator_RowClassName="PocketsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="م" msprop:Generator_ColumnVarNameInTable="columnم" msprop:Generator_ColumnPropNameInRow="م" msprop:Generator_ColumnPropNameInTable="مColumn" msprop:Generator_UserColumnName="م" type="xs:string" minOccurs="0" />
+              <xs:element name="رقم_x0020_البون" msprop:Generator_ColumnVarNameInTable="columnرقم_البون" msprop:Generator_ColumnPropNameInRow="رقم_البون" msprop:Generator_ColumnPropNameInTable="رقم_البونColumn" msprop:Generator_UserColumnName="رقم البون" type="xs:string" minOccurs="0" />
+              <xs:element name="ك" msprop:Generator_ColumnVarNameInTable="columnك" msprop:Generator_ColumnPropNameInRow="ك" msprop:Generator_ColumnPropNameInTable="كColumn" msprop:Generator_UserColumnName="ك" type="xs:string" minOccurs="0" />
+              <xs:element name="طن_x0020_1" msprop:Generator_ColumnVarNameInTable="columnطن_1" msprop:Generator_ColumnPropNameInRow="طن_1" msprop:Generator_ColumnPropNameInTable="طن_1Column" msprop:Generator_UserColumnName="طن 1" type="xs:string" minOccurs="0" />
+              <xs:element name="عدد" msprop:Generator_ColumnVarNameInTable="columnعدد" msprop:Generator_ColumnPropNameInRow="عدد" msprop:Generator_ColumnPropNameInTable="عددColumn" msprop:Generator_UserColumnName="عدد" type="xs:string" minOccurs="0" />
+              <xs:element name="قرش_x0020_1" msprop:Generator_ColumnVarNameInTable="columnقرش_1" msprop:Generator_ColumnPropNameInRow="قرش_1" msprop:Generator_ColumnPropNameInTable="قرش_1Column" msprop:Generator_UserColumnName="قرش 1" type="xs:string" minOccurs="0" />
+              <xs:element name="جنيه_x0020_1" msprop:Generator_ColumnVarNameInTable="columnجنيه_1" msprop:Generator_ColumnPropNameInRow="جنيه_1" msprop:Generator_ColumnPropNameInTable="جنيه_1Column" msprop:Generator_UserColumnName="جنيه 1" type="xs:string" minOccurs="0" />
+              <xs:element name="قرش" msprop:Generator_ColumnVarNameInTable="columnقرش" msprop:Generator_ColumnPropNameInRow="قرش" msprop:Generator_ColumnPropNameInTable="قرشColumn" msprop:Generator_UserColumnName="قرش" type="xs:string" minOccurs="0" />
+              <xs:element name="جنية" msprop:Generator_ColumnVarNameInTable="columnجنية" msprop:Generator_ColumnPropNameInRow="جنية" msprop:Generator_ColumnPropNameInTable="جنيةColumn" msprop:Generator_UserColumnName="جنية" type="xs:string" minOccurs="0" />
+              <xs:element name="نوع_x0020_البضاعه" msprop:Generator_ColumnVarNameInTable="columnنوع_البضاعه" msprop:Generator_ColumnPropNameInRow="نوع_البضاعه" msprop:Generator_ColumnPropNameInTable="نوع_البضاعهColumn" msprop:Generator_UserColumnName="نوع البضاعه" type="xs:string" minOccurs="0" />
+              <xs:element name="من" msprop:Generator_ColumnVarNameInTable="columnمن" msprop:Generator_ColumnPropNameInRow="من" msprop:Generator_ColumnPropNameInTable="منColumn" msprop:Generator_UserColumnName="من" type="xs:string" minOccurs="0" />
+              <xs:element name="الى" msprop:Generator_ColumnVarNameInTable="columnالى" msprop:Generator_ColumnPropNameInRow="الى" msprop:Generator_ColumnPropNameInTable="الىColumn" msprop:Generator_UserColumnName="الى" type="xs:string" minOccurs="0" />
+              <xs:element name="تاريخ_x0020_الشحن" msprop:Generator_ColumnVarNameInTable="columnتاريخ_الشحن" msprop:Generator_ColumnPropNameInRow="تاريخ_الشحن" msprop:Generator_ColumnPropNameInTable="تاريخ_الشحنColumn" msprop:Generator_UserColumnName="تاريخ الشحن" type="xs:string" minOccurs="0" />
+              <xs:element name="رقم_x0020_السيارة" msprop:Generator_ColumnVarNameInTable="columnرقم_السيارة" msprop:Generator_ColumnPropNameInRow="رقم_السيارة" msprop:Generator_ColumnPropNameInTable="رقم_السيارةColumn" msprop:Generator_UserColumnName="رقم السيارة" type="xs:string" minOccurs="0" />
+              <xs:element name="عهدة" msprop:Generator_ColumnVarNameInTable="columnعهدة" msprop:Generator_ColumnPropNameInRow="عهدة" msprop:Generator_ColumnPropNameInTable="عهدةColumn" msprop:Generator_UserColumnName="عهدة" type="xs:string" minOccurs="0" />
+              <xs:element name="العجز_x0020_ك" msprop:Generator_ColumnVarNameInTable="columnالعجز_ك" msprop:Generator_ColumnPropNameInRow="العجز_ك" msprop:Generator_ColumnPropNameInTable="العجز_كColumn" msprop:Generator_UserColumnName="العجز ك" type="xs:string" minOccurs="0" />
+              <xs:element name="العجز_x0020_طن" msprop:Generator_ColumnVarNameInTable="columnالعجز_طن" msprop:Generator_ColumnPropNameInRow="العجز_طن" msprop:Generator_ColumnPropNameInTable="العجز_طنColumn" msprop:Generator_UserColumnName="العجز طن" type="xs:string" minOccurs="0" />
+              <xs:element name="اسم_x0020_المركب" msprop:Generator_ColumnVarNameInTable="columnاسم_المركب" msprop:Generator_ColumnPropNameInRow="اسم_المركب" msprop:Generator_ColumnPropNameInTable="اسم_المركبColumn" msprop:Generator_UserColumnName="اسم المركب" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Members" msprop:Generator_TableClassName="MembersDataTable" msprop:Generator_TableVarName="tableMembers" msprop:Generator_TablePropName="Members" msprop:Generator_RowDeletingName="MembersRowDeleting" msprop:Generator_RowChangingName="MembersRowChanging" msprop:Generator_RowEvHandlerName="MembersRowChangeEventHandler" msprop:Generator_RowDeletedName="MembersRowDeleted" msprop:Generator_UserTableName="Members" msprop:Generator_RowChangedName="MembersRowChanged" msprop:Generator_RowEvArgName="MembersRowChangeEvent" msprop:Generator_RowClassName="MembersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="مسلسل_x0020_العضو" msprop:Generator_ColumnVarNameInTable="columnمسلسل_العضو" msprop:Generator_ColumnPropNameInRow="مسلسل_العضو" msprop:Generator_ColumnPropNameInTable="مسلسل_العضوColumn" msprop:Generator_UserColumnName="مسلسل العضو" type="xs:string" minOccurs="0" />
+              <xs:element name="اسم_x0020_العضو" msprop:Generator_ColumnVarNameInTable="columnاسم_العضو" msprop:Generator_ColumnPropNameInRow="اسم_العضو" msprop:Generator_ColumnPropNameInTable="اسم_العضوColumn" msprop:Generator_UserColumnName="اسم العضو" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pockets_Head" msprop:Generator_TableClassName="Pockets_HeadDataTable" msprop:Generator_TableVarName="tablePockets_Head" msprop:Generator_TablePropName="Pockets_Head" msprop:Generator_RowDeletingName="Pockets_HeadRowDeleting" msprop:Generator_RowChangingName="Pockets_HeadRowChanging" msprop:Generator_RowEvHandlerName="Pockets_HeadRowChangeEventHandler" msprop:Generator_RowDeletedName="Pockets_HeadRowDeleted" msprop:Generator_UserTableName="Pockets_Head" msprop:Generator_RowChangedName="Pockets_HeadRowChanged" msprop:Generator_RowEvArgName="Pockets_HeadRowChangeEvent" msprop:Generator_RowClassName="Pockets_HeadRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="كود_x0020_العضو" msprop:Generator_ColumnVarNameInTable="columnكود_العضو" msprop:Generator_ColumnPropNameInRow="كود_العضو" msprop:Generator_ColumnPropNameInTable="كود_العضوColumn" msprop:Generator_UserColumnName="كود العضو" type="xs:string" minOccurs="0" />
+              <xs:element name="التاريخ" msprop:Generator_ColumnVarNameInTable="columnالتاريخ" msprop:Generator_ColumnPropNameInRow="التاريخ" msprop:Generator_ColumnPropNameInTable="التاريخColumn" msprop:Generator_UserColumnName="التاريخ" type="xs:string" minOccurs="0" />
+              <xs:element name="رقم_x0020_القيد" msprop:Generator_ColumnVarNameInTable="columnرقم_القيد" msprop:Generator_ColumnPropNameInRow="رقم_القيد" msprop:Generator_ColumnPropNameInTable="رقم_القيدColumn" msprop:Generator_UserColumnName="رقم القيد" type="xs:string" minOccurs="0" />
+              <xs:element name="شركة" msprop:Generator_ColumnVarNameInTable="columnشركة" msprop:Generator_ColumnPropNameInRow="شركة" msprop:Generator_ColumnPropNameInTable="شركةColumn" msprop:Generator_UserColumnName="شركة" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
