@@ -6,7 +6,7 @@ The application works for many pcs by hosting it on local server
 It is protected by serial number generator
 
 # How it works
--The DataAccessLayer Class Has 4 ADO.NET methods that i created that take the sql command and parameters (if any) and fetchs the records 
+-The DataAccessLayer Class Has 4 methods that i created that take the sql command and parameters and run basic ADO.NET operations on database 
 from the database.
 
 -Every class contains number of static methods that return boolean result if the operation on database is successful.
