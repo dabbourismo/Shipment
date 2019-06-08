@@ -1,6 +1,8 @@
 # Shipment manager
 A winform application Created for shipment company client using Devexpress tools - MS sql server database
-the application works for many pcs by hosting it on local server
+
+The application works for many pcs by hosting it on local server
+
 It is protected by serial number generator
 
 # How it works
