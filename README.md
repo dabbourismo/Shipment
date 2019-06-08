@@ -1,5 +1,7 @@
 # Shipment manager
 A winform application Created for shipment company client using Devexpress tools - MS sql server database
+the application works for many pcs by hosting it on local server
+It is protected by serial number generator
 
 # How it works
 -The DataAccessLayer Class Has 4 ADO.NET methods that i created that take the sql command and parameters (if any) and fetchs the records 
